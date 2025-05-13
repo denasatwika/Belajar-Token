@@ -7,9 +7,18 @@
 .DS_Store
 **/.DS_Store
 
-# dfx temporary files
+# DFINITY temporary files
 .dfx/
+canister_ids.json
 
-# frontend code
+# Node / frontend
 node_modules/
 dist/
+package-lock.json
+
+# Environment
+.env
+.env.*
+
+# Logs
+npm-debug.log*
